@@ -10,3 +10,4 @@ images/
 mnist/
 .ipynb_checkpoints
 datasets
+.idea
