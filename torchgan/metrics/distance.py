@@ -1,5 +1,6 @@
 __all__ = ['EvaluationDistance']
 
+# Work in progress
 
 class EvaluationDistance:
 
@@ -15,7 +16,7 @@ class EvaluationDistance:
     def calculate_distance(self, x1, x2):
         raise NotImplementedError
 
-    def metric_ops(self, generator, discriminator, **kwargs):
+    def metric_ops(self, generator,  **kwargs):
         raise NotImplementedError
 
     def __call__(self, x1, x2):
